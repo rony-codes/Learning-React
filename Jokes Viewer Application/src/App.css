@@ -1,0 +1,64 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+}
+
+/* Container */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Title */
+.title {
+  color: white;
+  font-size: 28px;
+}
+
+/* Button */
+.btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  background: white;
+  color: #333;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Joke Card */
+.joke-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+.punchline {
+  color: #555;
+  font-style: italic;
+}
+
+/* Loading & Error */
+.loading {
+  color: white;
+}
+
+.error {
+  color: #ffdddd;
+}
