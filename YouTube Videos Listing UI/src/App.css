@@ -1,0 +1,88 @@
+/* Base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+}
+
+/* Title */
+.title {
+  margin-bottom: 20px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.card {
+  cursor: pointer;
+}
+
+/* Thumbnail wrapper */
+.thumbnail-wrapper {
+  position: relative;
+}
+
+/* Thumbnail */
+.thumbnail {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Duration */
+.duration {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: black;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+/* Info */
+.video-info {
+  margin-top: 10px;
+}
+
+/* Title */
+.video-title {
+  font-size: 15px;
+  margin: 0;
+  color: white;
+}
+
+/* Channel */
+.channel-name {
+  font-size: 13px;
+  color: #aaa;
+  margin: 5px 0;
+}
+
+/* Meta */
+.video-meta {
+  font-size: 12px;
+  color: #888;
+  display: flex;
+  gap: 5px;
+}
+
+/* Loading / Error */
+.loading {
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
